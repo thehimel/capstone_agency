@@ -111,7 +111,7 @@ heroku addons:create heroku-postgresql:hobby-dev --app appname
 ```bash
 heroku config --app appname
 ```
-> Note down the variables and include them in the setup.sh to use these databases while running the app locally.
+> Note down the db variables and include them in the setup.sh.
 
 * Initialize git in the project directory
 ```bash
