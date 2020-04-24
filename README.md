@@ -90,7 +90,7 @@ All tests are kept in that file and should be maintained as updates are made to 
 > Tokens are included in the environment. Generate new tokens if tokens are expired.
 
 ## API Reference
-Refer to the README-API.md
+Refer to the [README-API.md](/README-API.md)
 
 ## Deployment
 We are using Heroku for deployment.
