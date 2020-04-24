@@ -1,0 +1,76 @@
+
+Initialize the app from heroku starter app
+==========================================
+
+Create the db models
+====================
+
+setup env_file to define environmental variables based on server and local deployment
+-------------------------------------------------------------------------------------
+
+create database agency
+\c agency
+
+Create Movie and Actor models in the models.py
+
+Implement movie CRUD
+====================
+
+Implement actor CRUD
+====================
+
+Add error handlers
+==================
+
+Create Auth0 Application and API
+================================
+Permissions
+-----------
+post:movies
+get:movies
+patch:movies
+delete:movies
+
+post:actors
+get:actors
+patch:actors
+delete:actors
+
+Roles
+-----
+Casting Assistant
+Casting Director
+Executive Producer
+
+
+Implement RBAC
+==============
+
+
+Implement Tests in Postman
+==========================
+
+
+Implement Tests in pytest
+=========================
+pytest test_app.py
+
+
+Deploy app in heroku
+====================
+
+
+Run test in heroku
+==================
+heroku run pytest test_app.py
+
+
+Implement migration
+=========================
+Edit models.py and comment
+--------------------------
+# db.create_all()
+
+
+Prepare documentation
+=====================
