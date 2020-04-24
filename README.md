@@ -103,7 +103,7 @@ heroku login
 ```bash
 heroku create appname
 ```
-* Create database
+* Create 2 databases by running the following command twice. One for application and other one to use during the test.
 ```bash
 heroku addons:create heroku-postgresql:hobby-dev --app appname
 ```
@@ -111,7 +111,7 @@ heroku addons:create heroku-postgresql:hobby-dev --app appname
 ```bash
 heroku config --app appname
 ```
-> Note down the **DATABASE_URL** and include it in the setup.sh to use this database while running the app locally.
+> Note down the variables and include them in the setup.sh to use this database while running the app locally.
 
 * Initialize git in the project directory
 ```bash
@@ -125,6 +125,8 @@ git add .
 git commit -am "make it better"
 git push heroku master
 ```
+
+> If there is any issue, use `heroku restart` to restart the app.
 
 ## Author
 * [Himel Das](https://www.linkedin.com/in/himeldas/ "Himel Das")
