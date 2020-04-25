@@ -63,6 +63,7 @@ The application runs on http://127.0.0.1:5000/ by default.
 
 #### Authentication
 This project uses Auth0 for authentication.
+RBAC is implemented with users and roles inside the Auth0 account.
 Click on the login button and signup. Note down the access token from the URL for further use.
 
 #### Tests
